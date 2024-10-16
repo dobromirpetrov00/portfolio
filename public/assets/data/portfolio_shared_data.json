@@ -1,0 +1,75 @@
+{
+  "basic_info": {
+    "name": "Dobby",
+    "titles": [ "Software Developer", "Network Engineer", "Cybersecurity Specialist", "Full Stack Developer" ],
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/dobromirpetrov00",
+        "class": "fab fa-github"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/dobromirpetrov1337/",
+        "class": "fab fa-linkedin"
+      }
+    ],
+    "image": "myProfile.jpg"
+  },
+  "skills": {
+    "icons": [
+      {
+        "name": "Git",
+        "class": "devicon-git-plain"
+      },
+      {
+        "name": "HTML 5",
+        "class": "devicon-html5-plain"
+      },
+      {
+        "name": "CSS 3",
+        "class": "devicon-css3-plain"
+      },
+      {
+        "name": "Bootstrap",
+        "class": "devicon-bootstrap-plain"
+      },
+      {
+        "name": "Tailwind",
+        "class": "devicon-tailwindcss-plain"
+      },
+      {
+        "name": "Javascript",
+        "class": "devicon-javascript-plain"
+      },
+      {
+        "name": "React",
+        "class": "devicon-react-plain"
+      },
+      {
+        "name": "NodeJS",
+        "class": "devicon-nodejs-plain"
+      },
+      {
+        "name": "Python",
+        "class": "devicon-python-plain"
+      },
+      {
+        "name": "Go",
+        "class": "devicon-go-plain"
+      },
+      {
+        "name": "Salesforce",
+        "class": "devicon-salesforce-plain"
+      },
+      {
+        "name": "MySQL",
+        "class": "devicon-mysql-plain"
+      },
+      {
+        "name": "Oracle",
+        "class": "devicon-oracle-plain"
+      }
+    ]
+  }
+}

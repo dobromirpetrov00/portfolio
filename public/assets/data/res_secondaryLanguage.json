@@ -1,0 +1,77 @@
+{
+  "basic_info": {
+    "description_header": "Здрасти, аз съм Dobby",
+    "description": "Страстен софтуерен разработчик, мрежов инженер и специалист по киберсигурност. В момента работя по много неща. В момента уча много неща.",
+    "projects_text": "Всички мои проекти са налични ",
+    "projects_word": "тук",
+    "section_name": {
+      "about": "За мен",
+      "projects": "Проекти",
+      "skills": "Умения",
+      "experience": "Опит"
+    },
+    "contact_title": "Контакт",
+    "contact_desc": "Изпрати ми",
+    "contact_at": "на"
+  },
+  "projects": [
+    {
+      "title": "Go + React + JWT Auth",
+      "startDate": "2024",
+      "description": "Уеб приложение, изградено с Go и React, използвайки MySQL като база данни. Приложението включва потребителска аутентикация с помощта на JWT (JSON Web Tokens) за сигурни процеси за вход, регистрация и изход. След влизането в системата, потребителите са насочени към начална страница.",
+      "images": [
+        "images/portfolio/go-react-jwt/img_1.png",
+        "images/portfolio/go-react-jwt/img_2.png",
+        "images/portfolio/go-react-jwt/img_3.png",
+        "images/portfolio/go-react-jwt/img_4.png"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML 5"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS 3"
+        },
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-go-plain",
+          "name": "Go"
+        },
+        {
+          "class": "devicon-mysql-plain",
+          "name": "MySQL"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "title": "Full Stack Developer",
+      "years": "03.2022 - 03.2024",
+      "mainTech": [
+        "React",
+        "NodeJS",
+        "Bootstrap",
+        "Git"
+      ],
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Ajax",
+        "APIs",
+        "Salesforce"
+      ]
+    }
+  ]
+}
