@@ -9,15 +9,27 @@ import Projects from "./features/Projects/Projects";
 import Skills from "./features/Skills/Skills";
 import Contact from "./features/Contact/Contact";
 
+/**
+ * The main App component that manages the state and rendering of the portfolio website.
+ * It handles loading and applying the selected language, swapping the active language icon,
+ * and rendering the various sections of the portfolio (About, Projects, Skills, Experience, Contact).
+ */
 class App extends Component {
   constructor(props) {
     super();
+    // Initialize state with empty data objects
     this.state = {
       resumeData: {},
       sharedData: {},
     };
   }
 
+  /**
+   * Applies the picked language to the application by swapping the active language icon, setting the document language, and loading the corresponding resume data.
+   *
+   * @param {string} pickedLanguage - The language code of the picked language.
+   * @param {string} oppositeLangIconId - The ID of the language icon for the opposite language.
+   */
   applyPickedLanguage(pickedLanguage, oppositeLangIconId) {
     this.swapCurrentlyActiveLanguage(oppositeLangIconId);
     document.documentElement.lang = pickedLanguage;
@@ -28,6 +40,11 @@ class App extends Component {
     this.loadResumeFromPath(resumePath);
   }
 
+  /**
+   * Swaps the currently active language icon by removing the brightness filter from the opposite language icon and applying the brightness filter to the picked language icon.
+   *
+   * @param {string} oppositeLangIconId - The ID of the language icon for the opposite language.
+   */
   swapCurrentlyActiveLanguage(oppositeLangIconId) {
     var pickedLangIconId =
       oppositeLangIconId === window.$primaryLanguageIconId
@@ -41,6 +58,10 @@ class App extends Component {
       .setAttribute("filter", "brightness(40%)");
   }
 
+  /**
+   * Loads the shared data and applies the picked language when the component mounts.
+   * This is called once when the component is first rendered.
+   */
   componentDidMount() {
     this.loadSharedData();
     this.applyPickedLanguage(
@@ -49,6 +70,11 @@ class App extends Component {
     );
   }
 
+  /**
+   * Loads the resume data from the specified path and updates the component state with the loaded data.
+   *
+   * @param {string} path - The path to the JSON file containing the resume data.
+   */
   loadResumeFromPath(path) {
     $.ajax({
       url: path,
@@ -63,6 +89,10 @@ class App extends Component {
     });
   }
 
+  /**
+   * Loads the shared data for the application and updates the component state with the loaded data.
+   * This method is called when the component is first mounted to initialize the shared data.
+   */
   loadSharedData() {
     $.ajax({
       url: `/assets/data/portfolio_shared_data.json`,
@@ -78,6 +108,12 @@ class App extends Component {
     });
   }
 
+  /**
+   * Renders the main application components, including the header, language selection, and various sections like About, Projects, Skills, Experience, and Contact.
+   * This method is called by React to render the component.
+   *
+   * @returns {JSX.Element} The rendered JSX elements for the application.
+   */
   render() {
     return (
       <div>

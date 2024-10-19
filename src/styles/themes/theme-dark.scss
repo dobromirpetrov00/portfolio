@@ -1,36 +1,44 @@
 body[data-theme="dark"] {
   @import '../sliders/dark-slider.scss';
 
+  // Styles for slider tab
   .slider-tab {
     background-color: #8C8C8C;
   }
 
+  // Styles for title elements
   .title-styles {
     color: white;
   }
 
+  // Styles for header icons
   .header-icon {
     color: #3C342C;
     opacity: 0.8;
   }
 
+  // Styles for slider images
   .slider-image {
     border: 5px solid #8C8C8C;
   }
 
+  // Styles for language elements
   .language {
     background-color: #494949;
   }
 
+  // Styles for link elements
   .link-href {
     color: white;
   }
 
+  // Styles for project date elements
   .project-date {
     background-color: #918e97;
     color: white;
   }
 
+  // Styles for header
   header {
     background-color: #494949;
     h1 {
@@ -38,6 +46,7 @@ body[data-theme="dark"] {
     }
   }
 
+  // Styles for about section
   #about {
     background-color: #7f7f7f;
     h1 span {
@@ -55,6 +64,7 @@ body[data-theme="dark"] {
     }
   }
 
+  // Styles for contact section
   #contact {
     background-color: #7f7f7f;
     h1 span {
@@ -72,6 +82,7 @@ body[data-theme="dark"] {
     }
   }
 
+  // Styles for portfolio section
   #portfolio {
     background: #5b5b5b;
     .section-title {
@@ -85,6 +96,7 @@ body[data-theme="dark"] {
     }
   }
 
+  // Styles for resume section
   #resume {
     filter: brightness(80%);
     background: #5b5b5b;
@@ -115,15 +127,18 @@ body[data-theme="dark"] {
     }
   }
 
+  // Styles for modal content
   .modal-inside .modal-content {
     background: #5b5b5b;
     color: white;
   }
 
+  // Styles for close icon
   .close-icon {
     color: white;
   }
 
+  // Styles for footer and skills section
   footer, #skills {
     background: #1f1f1f;
   }

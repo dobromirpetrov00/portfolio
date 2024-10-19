@@ -1,9 +1,19 @@
 import React, { Component } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+/**
+ * Renders a contact section with information from the `resumeBasicInfo` prop.
+ *
+ * The contact section includes:
+ * - A title and description of the contact information
+ * - Colored circles to visually indicate the contact section
+ * - The contact email address, with a link to open the user's email client
+ */
 class Contact extends Component {
   render() {
+    // Check if resumeBasicInfo is available in props
     if (this.props.resumeBasicInfo) {
+      // Extract contact information from resumeBasicInfo
       var contact_title = this.props.resumeBasicInfo.contact_title;
       var contact_desc = this.props.resumeBasicInfo.contact_desc;
       var contact_at = this.props.resumeBasicInfo.contact_at;
@@ -20,6 +30,7 @@ class Contact extends Component {
               <div className="col-md-10">
                 <div className="card">
                   <div className="card-header">
+                    {/* Display colored circles using iconify */}
                     <span
                       className="iconify"
                       data-icon="emojione:red-circle"
@@ -46,6 +57,7 @@ class Contact extends Component {
                       lineHeight: "200%",
                     }}
                   >
+                    {/* Display contact description and email */}
                     <p>
                       {contact_desc} <i className="fas fa-envelope"></i> {contact_at} <a href="mailto:dobpet00@gmail.com" style={{ textDecoration: "underline" }}>dobpet00@gmail.com</a>
                     </p>

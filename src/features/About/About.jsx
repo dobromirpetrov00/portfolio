@@ -6,12 +6,19 @@ import nodejsIcon from "@iconify/icons-logos/nodejs";
 import pythonIcon from "@iconify/icons-logos/python";
 import goIcon from "@iconify/icons-logos/gopher";
 
+/**
+ * Renders the About section of the application.
+ * This component displays the user's profile picture, skills icons, and a description of the user's background and projects.
+ * The content for this section is retrieved from the `sharedBasicInfo` and `resumeBasicInfo` props.
+ */
 class About extends Component {
   render() {
+    // Check if sharedBasicInfo is available and set profile picture path
     if (this.props.sharedBasicInfo) {
       var profilepic = "images/" + this.props.sharedBasicInfo.image;
     }
 
+    // Check if resumeBasicInfo is available and set section details
     if (this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
       var hello = this.props.resumeBasicInfo.description_header;
@@ -36,6 +43,7 @@ class About extends Component {
                     alt="Avatar placeholder"
                     style={{ display: "block", margin: "0 auto" }}
                   />
+                  {/* Display icons for various technologies */}
                   <Icon
                     icon={tailwindIcon}
                     style={{ fontSize: "250%", margin: "9% 5% 0 5%" }}
@@ -64,6 +72,7 @@ class About extends Component {
               <div className="col-md-10">
                 <div className="card">
                   <div className="card-header">
+                    {/* Display colored circles as part of the card header */}
                     <span
                       className="iconify"
                       data-icon="emojione:red-circle"
@@ -94,6 +103,7 @@ class About extends Component {
                     <span className="wave">{hello}</span>
                     <br />
                     <br />
+                    {/* Display about section and projects link */}
                     {about} {projects_text}
                     <a href='https://github.com/dobromirpetrov00' target='_blank' rel="noopener noreferrer" style={{textDecoration: "underline"}}>
                       {projects_word}

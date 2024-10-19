@@ -4,6 +4,23 @@ import AwesomeSlider from "react-awesome-slider";
 import AwesomeSliderStyles from "../../styles/sliders/light-slider.scss";
 import AwesomeSliderStyles2 from "../../styles/sliders/dark-slider.scss";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
+
+/**
+ * A React component that renders a modal with details about a project.
+ * The modal includes a slider with images of the project, the project title and description,
+ * and a list of technologies used in the project.
+ *
+ * @param {object} props - The component props.
+ * @param {object} props.data - An object containing the project details.
+ * @param {string} props.data.title - The title of the project.
+ * @param {string} props.data.description - The description of the project.
+ * @param {string} props.data.url - The URL of the project.
+ * @param {object[]} props.data.technologies - An array of objects representing the technologies used in the project.
+ * @param {string} props.data.technologies[].class - The CSS class for the technology icon.
+ * @param {string} props.data.technologies[].name - The name of the technology.
+ * @param {string[]} props.data.images - An array of URLs for the project images.
+ * @param {function} props.onHide - A function to be called when the modal is closed.
+ */
 class ProjectDetailsModal extends Component {
   render() {
     if (this.props.data) {
@@ -14,6 +31,7 @@ class ProjectDetailsModal extends Component {
       var url = this.props.data.url;
 
       if (this.props.data.technologies) {
+        // Map over the technologies array to create a list of technology icons
         var tech = technologies.map((icons, i) => {
           return (
             <li className="list-inline-item mx-3" key={i}>
@@ -31,6 +49,7 @@ class ProjectDetailsModal extends Component {
         });
 
         if (this.props.data.images) {
+          // Map over the images array to create a list of image elements for the slider
           var img = images.map((elem, i) => {
             return <div key={i} data-src={elem} />;
           });

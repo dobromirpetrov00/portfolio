@@ -2,20 +2,33 @@ import React, { Component } from "react";
 import Typical from "react-typical";
 import Switch from "react-switch";
 
+/**
+ * The `Header` component represents the header section of the application. It includes the user's name, a title animation, and a theme switch to toggle between light and dark modes.
+ *
+ * The component manages the state of the theme switch and provides a method to toggle the theme. The title animation is memoized to optimize performance.
+ *
+ * @component
+ * @example
+ * <Header sharedData={sharedData} />
+ */
 class Header extends Component {
   titles = [];
 
   constructor() {
     super();
+    // Initialize state with theme switch set to false
     this.state = { checked: false };
+    // Bind the theme switch change handler
     this.onThemeSwitchChange = this.onThemeSwitchChange.bind(this);
   }
 
+  // Handler for theme switch change
   onThemeSwitchChange(checked) {
     this.setState({ checked });
     this.setTheme();
   }
 
+  // Toggle the theme between light and dark
   setTheme() {
     var dataThemeAttribute = "data-theme";
     var body = document.body;
@@ -27,9 +40,11 @@ class Header extends Component {
   render() {
     if (this.props.sharedData) {
       var name = this.props.sharedData.name;
+      // Map titles to uppercase and set animation duration
       this.titles = this.props.sharedData.titles.map(x => [ x.toUpperCase(), 1500 ] ).flat();
     }
 
+    // Memoized component for title animation
     const HeaderTitleTypeAnimation = React.memo( () => {
       return <Typical className="title-styles" steps={this.titles} loop={50} />
     }, (props, prevProp) => true);
