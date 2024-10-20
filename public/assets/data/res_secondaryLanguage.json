@@ -52,6 +52,45 @@
           "name": "MySQL"
         }
       ]
+    },
+    {
+      "title": "Angular + NodeJS - CRUD",
+      "startDate": "2024",
+      "description": "Уеб приложение, изградено с Angular и NodeJS, използвайки json файл като база данни. Приложението включва начална страница с изброяване на всички продукти, опции за редактиране на съществуващи продукти; добавяне на нови продукти; изтриване на съществуващи продукти. Има и страница About Us.",
+      "images": [
+        "images/portfolio/clothing-crud/img_1.png",
+        "images/portfolio/clothing-crud/img_2.png",
+        "images/portfolio/clothing-crud/img_3.png",
+        "images/portfolio/clothing-crud/img_4.png",
+        "images/portfolio/clothing-crud/img_5.png"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML 5"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS 3"
+        },
+        {
+          "class": "devicon-sass-original",
+          "name": "SASS"
+        },
+        {
+          "class": "devicon-angular-plain",
+          "name": "Angular"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "NodeJS"
+        }
+      ]
     }
   ],
   "experience": [

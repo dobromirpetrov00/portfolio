@@ -52,6 +52,45 @@
           "name": "MySQL"
         }
       ]
+    },
+    {
+      "title": "Angular + NodeJS - CRUD",
+      "startDate": "2024",
+      "description": "A full-stack web application built with Angular and NodeJS, utilizing json file as the database. The application features homepage with listing of all products, options to edit existing products; add new products; delete existing products. There is also About Us page.",
+      "images": [
+        "images/portfolio/clothing-crud/img_1.png",
+        "images/portfolio/clothing-crud/img_2.png",
+        "images/portfolio/clothing-crud/img_3.png",
+        "images/portfolio/clothing-crud/img_4.png",
+        "images/portfolio/clothing-crud/img_5.png"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML 5"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS 3"
+        },
+        {
+          "class": "devicon-sass-original",
+          "name": "SASS"
+        },
+        {
+          "class": "devicon-angular-plain",
+          "name": "Angular"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "NodeJS"
+        }
+      ]
     }
   ],
   "experience": [
