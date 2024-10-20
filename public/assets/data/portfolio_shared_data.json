@@ -19,6 +19,14 @@
   "skills": {
     "icons": [
       {
+        "name": "bash",
+        "class": "devicon-bash-plain"
+      },
+      {
+        "name": "linux",
+        "class": "devicon-linux-plain"
+      },
+      {
         "name": "Git",
         "class": "devicon-git-plain"
       },
@@ -47,6 +55,10 @@
         "class": "devicon-javascript-plain"
       },
       {
+        "name": "Typescript",
+        "class": "devicon-typescript-plain"
+      },
+      {
         "name": "React",
         "class": "devicon-react-plain"
       },
@@ -59,12 +71,28 @@
         "class": "devicon-nodejs-plain"
       },
       {
+        "name": "expressJS",
+        "class": "devicon-express-original"
+      },
+      {
         "name": "Python",
         "class": "devicon-python-plain"
       },
       {
+        "name": "django",
+        "class": "devicon-django-plain"
+      },
+      {
+        "name": "pytorch",
+        "class": "devicon-pytorch-original"
+      },
+      {
         "name": "Go",
         "class": "devicon-go-plain"
+      },
+      {
+        "name": "php",
+        "class": "devicon-php-plain"
       },
       {
         "name": "Salesforce",
@@ -77,6 +105,26 @@
       {
         "name": "Oracle",
         "class": "devicon-oracle-plain"
+      },
+      {
+        "name": "SQLite",
+        "class": "devicon-sqlite-plain"
+      },
+      {
+        "name": "Postman",
+        "class": "devicon-postman-plain"
+      },
+      {
+        "name": "Selenium",
+        "class": "devicon-selenium-original"
+      },
+      {
+        "name": "puppeteer",
+        "class": "devicon-puppeteer-plain"
+      },
+      {
+        "name": "playwright",
+        "class": "devicon-playwright-plain"
       }
     ]
   }
