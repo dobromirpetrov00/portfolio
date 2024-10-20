@@ -31,12 +31,16 @@
         "class": "devicon-css3-plain"
       },
       {
+        "name": "Tailwind",
+        "class": "devicon-tailwindcss-plain"
+      },
+      {
         "name": "Bootstrap",
         "class": "devicon-bootstrap-plain"
       },
       {
-        "name": "Tailwind",
-        "class": "devicon-tailwindcss-plain"
+        "class": "devicon-sass-original",
+        "name": "SASS"
       },
       {
         "name": "Javascript",
@@ -45,6 +49,10 @@
       {
         "name": "React",
         "class": "devicon-react-plain"
+      },
+      {
+        "class": "devicon-angular-plain",
+        "name": "Angular"
       },
       {
         "name": "NodeJS",
