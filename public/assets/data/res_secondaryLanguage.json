@@ -16,7 +16,7 @@
   },
   "projects": [
     {
-      "title": "Go + React + JWT Auth",
+      "title": "EDIT PROFILE - GO + REACT + JWT AUTH + MYSQL",
       "startDate": "2024",
       "description": "Уеб приложение, изградено с Go и React, използвайки MySQL като база данни. Приложението включва потребителска аутентикация с помощта на JWT (JSON Web Tokens) за сигурни процеси за вход, регистрация и изход. След влизането в системата, потребителите са насочени към начална страница.",
       "images": [
@@ -54,7 +54,7 @@
       ]
     },
     {
-      "title": "Angular + NodeJS - CRUD",
+      "title": "MARKETPLACE - NODEJS  + ANGULAR",
       "startDate": "2024",
       "description": "Уеб приложение, изградено с Angular и NodeJS, използвайки json файл като база данни. Приложението включва начална страница с изброяване на всички продукти, опции за редактиране на съществуващи продукти; добавяне на нови продукти; изтриване на съществуващи продукти. Има и страница About Us.",
       "images": [
@@ -89,6 +89,42 @@
         {
           "class": "devicon-nodejs-plain",
           "name": "NodeJS"
+        }
+      ]
+    },
+    {
+      "title": "MARKETPLACE - NEXTJS + REACT + TYPESCRIPT",
+      "startDate": "2024",
+      "description": "Уеб приложение, изградено с NextJS, React и Typescript. То предоставя удобен потребителски интерфейс за разглеждане и купуване на продукти. Потребителят може да разглежда продукти, да ги добавя в количка и да премине към плащане. Резултатът от плащането е произволен и шансът за неуспех е 20%.",
+      "images": [
+        "images/portfolio/marketplace-nextjs-react-typescript/1.png",
+        "images/portfolio/marketplace-nextjs-react-typescript/2.png",
+        "images/portfolio/marketplace-nextjs-react-typescript/3.png",
+        "images/portfolio/marketplace-nextjs-react-typescript/4.png",
+        "images/portfolio/marketplace-nextjs-react-typescript/5.png",
+        "images/portfolio/marketplace-nextjs-react-typescript/6.png"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML 5"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS 3"
+        },
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-nextjs-original-wordmark",
+          "name": "NextJS"
         }
       ]
     }

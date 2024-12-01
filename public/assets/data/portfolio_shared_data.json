@@ -75,6 +75,10 @@
         "class": "devicon-express-original"
       },
       {
+        "name": "NextJS",
+        "class": "devicon-nextjs-original-wordmark"
+      },
+      {
         "name": "Python",
         "class": "devicon-python-plain"
       },
