@@ -131,7 +131,24 @@
   ],
   "experience": [
     {
-      "title": "Full Stack Developer",
+      "title": "Back-End Developer",
+      "years": "01.2025 - 06.2025",
+      "mainTech": [
+        "NodeJS",
+        "SQLite",
+        "puppeteer",
+        "gitlab"
+      ],
+      "technologies": [
+        "PHP",
+        "MySQL",
+        "selenium",
+        "DiscordJS",
+        "APIs"
+      ]
+    },
+    {
+      "title": "Full-Stack Developer",
       "years": "03.2022 - 03.2024",
       "mainTech": [
         "React",
