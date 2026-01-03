@@ -31,6 +31,10 @@
         "class": "devicon-git-plain"
       },
       {
+        "name": "docker",
+        "class": "devicon-docker-plain-wordmark"
+      },
+      {
         "name": "DiscordJS",
         "class": "devicon-discordjs-plain-wordmark"
       },
