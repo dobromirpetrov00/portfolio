@@ -59,7 +59,7 @@ class Contact extends Component {
                   >
                     {/* Display contact description and email */}
                     <p>
-                      {contact_desc} <i className="fas fa-envelope"></i> {contact_at} <a href="mailto:dobpet00@gmail.com" style={{ textDecoration: "underline" }}>dobpet00@gmail.com</a>
+                      {contact_desc} <i className="fas fa-envelope"></i> {contact_at} <a href="mailto:contact@dobby.software" style={{ textDecoration: "underline" }}>contact@dobby.software</a>
                     </p>
                   </div>
                 </div>
