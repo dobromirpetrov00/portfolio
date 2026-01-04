@@ -71,6 +71,10 @@
         "class": "devicon-react-plain"
       },
       {
+        "name": "VueJS",
+        "class": "devicon-vuejs-plain-wordmark colored"
+      },
+      {
         "class": "devicon-angular-plain",
         "name": "Angular"
       },
